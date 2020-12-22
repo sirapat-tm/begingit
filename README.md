@@ -13,6 +13,9 @@ git remote add origin https://github.com/sirapat-tm/begingit.git
 git remote -v  
 git commit -m "start using git"  
 
+to change remote  
+git remote set-url origin new.git.url/here  
+
 try to add some file  
 git add data.csv  
 git status  
@@ -24,6 +27,8 @@ you might need to setup you github account first
 
 git config --global user.name "your_name"  
 git config --global user.email "your@email.com"  
+
+you can use "git help" and type the common you have a problem
 
 sourse  
 https://www.androidthai.in.th/git-and-github-article/191-github-on-vs-code.html  
